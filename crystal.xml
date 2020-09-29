@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+   <Doc> Hello world. </Doc>
+      <Files>                   
+	 <File ftype="ma">crystal.ma</File>                   
+                   <File ftype="sup">crystal.val</File>
+      </Files>
+   <Options>
+      <TimeOp>null</TimeOp>
+      <OnlyYMsgOP>true</OnlyYMsgOP>
+      <ParsingOp>true</ParsingOp>      
+   </Options>     
+   <DrawLog>
+      <CoupledModel>crystal</CoupledModel>
+      <Width>3</Width>
+      <Precision>0</Precision>    
+      <NotPrintZero>true</NotPrintZero>   
+      <TimeInterval>00:00:00:10</TimeInterval> 
+   </DrawLog>  
+</ConfigFramework>
